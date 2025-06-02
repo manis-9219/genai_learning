@@ -7,4 +7,4 @@ try:
     df.show()
     spark.stop()
 except Exception as e:
-    print("PySpark is not set up correctly:", e)
+    print("PySpark is not set up correctly: ", e)
